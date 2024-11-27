@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "764333139287",
+    "project_id": "runwalk-df59e",
+    "storage_bucket": "runwalk-df59e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764333139287:android:bee9c5d3079c67d6810a12",
+        "android_client_info": {
+          "package_name": "com.example.tracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDCnktSqqijBRx3eDVMhfzUg14Nf6Kp5w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
