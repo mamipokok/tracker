@@ -23,9 +23,8 @@ class Lokasi extends StatelessWidget {
                 style: TextStyle(color: Colors.white),
               )
             : Text(
-                '${locationProvider.placemark?[0].locality},\n'
-                '${locationProvider.placemark?[0].administrativeArea}, '
-                '${locationProvider.placemark?[0].country}',
+                '${locationProvider.placemark?[0].thoroughfare},\n'
+                '${locationProvider.placemark?[0].locality}',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   color: Colors.white,

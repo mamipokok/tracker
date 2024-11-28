@@ -62,9 +62,9 @@ class _DataPersonalState extends State<DataPersonal> {
                 DataColumn(
                     label:
                         Text('Jabatan', style: TextStyle(color: Colors.white))),
-                DataColumn(
-                    label:
-                        Text('Email', style: TextStyle(color: Colors.white))),
+                // DataColumn(
+                //     label:
+                //         Text('Email', style: TextStyle(color: Colors.white))),
               ],
               rows: users.map<DataRow>((user) {
                 var userData = user.data() as Map<String, dynamic>;
@@ -79,8 +79,8 @@ class _DataPersonalState extends State<DataPersonal> {
                       style: TextStyle(color: Colors.white))),
                   DataCell(Text(userData['jabatan'] ?? '',
                       style: TextStyle(color: Colors.white))),
-                  DataCell(Text(userData['email'] ?? '',
-                      style: TextStyle(color: Colors.white))),
+                  // DataCell(Text(userData['email'] ?? '',
+                  //     style: TextStyle(color: Colors.white))),
                 ]);
               }).toList(),
             ),
